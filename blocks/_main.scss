@@ -1,0 +1,61 @@
+.main {
+
+    &__wrapper {
+        max-width    : 1260px;
+        margin       : 0 auto;
+        padding-left : 30px;
+        padding-right: 30px;
+        margin-top: 140px;
+    }
+
+    &__title {
+        font-family: $normal;
+        font-weight: 600;
+        font-size  : 40px;
+        line-height: 52px;
+        color      : #2E2D35;
+    }
+
+    &__content-container {
+        @include flex(row, space-between, wrap, base-line);
+        flex-wrap: wrap;
+        margin-top: 50px
+    }
+
+    &__item {
+        @extend %item;
+        margin-bottom: 30px
+    }
+
+    &__inner {
+        @extend %item-inner
+    }
+
+    &__item-title {
+        @extend %item-title;
+    }
+
+    &__item-text {
+        @extend %item-text
+    }
+
+    &__item-pic-1 {
+        background-image: url("../img/Time.svg");
+        @extend %item-pic;
+    }
+
+    &__item-pic-2 {
+        background-image: url("../img/Speed.svg");
+        @extend %item-pic
+    }
+
+    &__item-pic-3 {
+        background-image: url("../img/Information.svg");
+        @extend %item-pic
+    }
+
+    &__item-pic-4 {
+        background-image: url("../img/Chat.svg");
+        @extend %item-pic
+    }
+}

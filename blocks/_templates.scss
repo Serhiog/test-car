@@ -1,0 +1,48 @@
+%btn {
+    width           : 222px;
+    height          : 50px;
+    background-color: #F25B24;
+    font-family     : $normal;
+    color           : white;
+    font-weight     : 600;
+    font-size       : 18px;
+    line-height     : 100%;
+    border-radius: 4px;
+}
+
+%item {
+    max-width       : 570 / 1200 * 100%;
+    background-color: #F6F5F9;
+    @include flex(row, space-between, wrap, flex-start);
+    flex-wrap: wrap;
+    padding-bottom: 27px;
+    padding-right: 10px;
+}
+
+%item-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size  : 22px;
+    line-height: 29px;
+    color      : #2E2D35;
+}
+
+%item-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 142%;
+    color      : #474351;
+    padding-top: 22px;
+}
+
+%item-pic {
+    width : 193px;
+    height: 193px;
+}
+
+%item-inner {
+    max-width: 300 / 570 * 100%;
+    padding-top: 43px;
+    padding-left: 40px;
+}
