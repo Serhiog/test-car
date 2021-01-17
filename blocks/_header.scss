@@ -100,6 +100,10 @@
             order      : 1;
             align-items: center;
         }
+
+        @media (max-width:630px) {
+            margin-top: 0;
+        }
     }
 
     &__content-title {
@@ -124,6 +128,7 @@
         line-height: 31px;
         color      : white;
         margin-top : 30px;
+
         @media (max-width:1260px) {
             text-align: center;
         }
@@ -138,6 +143,11 @@
         background-image: url("img/auto.svg");
         width           : 670px;
         height          : 442px;
+
+        @media (max-width:630px) {
+            display: none;
+        }
+
     }
 }
 
