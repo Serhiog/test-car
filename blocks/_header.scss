@@ -7,14 +7,10 @@
         padding-top  : 36px;
         padding-left : 30px;
         padding-right: 30px;
-
-        @media (max-width:720px) {
-            // max-width: 720px;
-        }
     }
 
     &__top {
-        width: 100%;
+        max-width: 100%;
         @include flex;
 
     }
@@ -40,6 +36,7 @@
         font-weight: 325;
         line-height: 23px;
         font-family: $light;
+        flex-wrap  : wrap;
     }
 
     &__nav-about {
@@ -59,7 +56,13 @@
             width            : 24px;
             height           : 24px;
             right            : 55px;
+
+            @media (max-width:1260px) {
+                background-image: none;
+            }
         }
+
+
 
         &::after {
             content          : '';
@@ -70,6 +73,10 @@
             height           : 9px;
             right            : 63px;
             top              : 6px;
+
+            @media (max-width:1260px) {
+                background-image: none;
+            }
         }
     }
 
@@ -102,6 +109,12 @@
         line-height: 120%;
         color      : white;
         @include m0p0;
+
+        @media (max-width:1260px) {
+            text-align: center;
+        }
+
+
     }
 
     &__content-about {
@@ -111,6 +124,9 @@
         line-height: 31px;
         color      : white;
         margin-top : 30px;
+        @media (max-width:1260px) {
+            text-align: center;
+        }
     }
 
     &__content-btn {

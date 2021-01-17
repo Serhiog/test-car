@@ -15,6 +15,9 @@
         font-size  : 40px;
         line-height: 52px;
         color      : #2E2D35;
+        @media (max-width:1260px) {
+            text-align: center;
+        }
     }
 
     &__content-container {
@@ -29,7 +32,10 @@
     }
 
     &__inner {
-        @extend %item-inner
+        @extend %item-inner;
+        @media (max-width:630px) {
+            padding-left: 10px;
+        }
     }
 
     &__item-title {
