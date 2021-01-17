@@ -1,11 +1,12 @@
 .main {
+    padding-bottom: 30px;
 
     &__wrapper {
         max-width    : 1260px;
         margin       : 0 auto;
         padding-left : 30px;
         padding-right: 30px;
-        margin-top: 140px;
+        margin-top   : 140px;
     }
 
     &__title {
@@ -18,7 +19,7 @@
 
     &__content-container {
         @include flex(row, space-between, wrap, base-line);
-        flex-wrap: wrap;
+        flex-wrap : wrap;
         margin-top: 50px
     }
 
