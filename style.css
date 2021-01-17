@@ -411,17 +411,17 @@ template {
 
 @font-face {
   font-family: 'Whitney-Light';
-  src: url("/fonts/Whitney-Light.woff") format("woff");
+  src: url("fonts/Whitney-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Whitney-Bold';
-  src: url("/fonts/Whitney-Bold.woff") format("woff");
+  src: url("fonts/Whitney-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Whitney-Normal';
-  src: url("/fonts/Whitney-Semibold.woff") format("woff");
+  src: url("fonts/Whitney-Semibold.woff") format("woff");
 }
 
 .btn {
@@ -583,7 +583,7 @@ template {
 .header__nav-login::before {
   content: '';
   position: absolute;
-  background-image: url("../img/login.svg");
+  background-image: url("img/login.svg");
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -593,7 +593,7 @@ template {
 .header__nav-login::after {
   content: '';
   position: absolute;
-  background-image: url("../img/login-2.svg");
+  background-image: url("img/login-2.svg");
   background-repeat: no-repeat;
   width: 9px;
   height: 9px;
@@ -667,7 +667,7 @@ template {
 }
 
 .header__content-img-container {
-  background-image: url("../img/auto.svg");
+  background-image: url("img/auto.svg");
   width: 670px;
   height: 442px;
 }
@@ -713,19 +713,19 @@ template {
 }
 
 .main__item-pic-1 {
-  background-image: url("../img/Time.svg");
+  background-image: url("img/Time.svg");
 }
 
 .main__item-pic-2 {
-  background-image: url("../img/Speed.svg");
+  background-image: url("img/Speed.svg");
 }
 
 .main__item-pic-3 {
-  background-image: url("../img/Information.svg");
+  background-image: url("img/Information.svg");
 }
 
 .main__item-pic-4 {
-  background-image: url("../img/Chat.svg");
+  background-image: url("img/Chat.svg");
 }
 
 .form {
@@ -735,7 +735,7 @@ template {
 }
 
 .form__inner {
-  background-image: url("../img/cars.png");
+  background-image: url("img/cars.png");
   background-repeat: no-repeat;
   background-position: right;
 }
