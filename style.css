@@ -918,7 +918,7 @@ template {
   font-size: 20px;
   color: black;
   text-decoration: none;
-  background-image: url("../img/close.svg");
+  background-image: url("img/close.svg");
   width: 14px;
   height: 14px;
   left: 449px;
